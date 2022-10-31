@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react'
 import MovieCard from './MovieCard';
 import WatchlistCard from './WatchlistCard';
 
-const API_KEY = process.env.REACT_APP_API_KEY;
+const API_KEY = process.env.REACT_APP_API_KEY
 
 function MovieHome() {
 const [movieData, setMovieData] = useState([]);
