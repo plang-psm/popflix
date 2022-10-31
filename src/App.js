@@ -1,4 +1,4 @@
-import MovieHome from "./components/MovieHome";
+import MovieHome from "./screens/MovieHome";
 
 function App() {
   return (

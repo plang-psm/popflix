@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ****************** Buttons ****************** */
+button {
+    padding: .5em;
+    border:  none;
+}
+
+.watchlist-view {
+    margin-top: .5em;
+    border: none;
+    background-color: transparent;
+    color: white;
+    letter-spacing: .1em;
+    text-align: end;
+}
+
+.watchlist-btn {
+    background-color: black;
+    color: white;
+}
+
+.watchlist-btn:hover {
+    background-color: rgb(70, 70, 70);
+}
+
+/* ****************** Bold ****************** */
+.span-bold {
+    font-weight: 700;
+}
+
+/* ****************** Mobile margin bottom ****************** */
+.margin-bottom{
+    margin-bottom: .5em;
+}
+
+/* ****************** Search bar ****************** */
+.searchbar {
+    max-width: 850px;
+    margin: -1em auto 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.searchbar input {
+    margin-top: -2;
+    width: 80%;
+    padding: .4em 0;
+    text-align: center;
+
+}
+
+/* ****************** Heading ****************** */
+.heading-container {
+    padding: 4.5em;
+    background-color: black;
+    text-align: center;
+    color: white;
+    letter-spacing: .5em;
+    background-image: url(images/headerbg.png);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.watchlist-header {
+    color: black;
+    letter-spacing: .1em;
+    text-align: center;
+}
+
+/* ****************** Card Container ****************** */
+.poster img {
+    width: 70%;
+    object-fit: cover;
+}
+
+.card-container {
+    max-width: 850px;
+    margin-top: 1em;
+    margin: 1em auto 0 auto;
+    padding: 2em;
+    text-align: center;
+}
+.movie-info {
+    margin: 0 2em;
+}
+
+.rating-info {
+    display: flex;
+    justify-content: center;
+}
+
+.rating-info p{
+    margin: 0 1em;
+}
+
+.overview {
+    background-color: whitesmoke;
+    padding: .5em;
+}
+
+/* ****************** Repsonsive Design ****************** */
+@media only screen and (min-width: 553px) {
+
+    .heading-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .poster img {
+        width: auto;
+    }
+
+    .card-container {
+        display: flex;
+        /* align-items: start; */
+        
+    }
+    .margin-bottom{
+        margin-bottom: 1em;
+    }
+}
+
+@media only screen and (min-width: 850px) {
+
+}
