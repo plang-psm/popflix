@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 
 /* ****************** Buttons ****************** */
@@ -98,10 +99,11 @@ button {
 .rating-info {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .rating-info p{
-    margin: 0 1em;
+    margin: 0 .4em;
 }
 
 .overview {
