@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/popflix/static/css/main.7b22e036.css",
-    "main.js": "/popflix/static/js/main.b8c8feec.js",
+    "main.css": "/popflix/static/css/main.3425b162.css",
+    "main.js": "/popflix/static/js/main.a94d9ae5.js",
     "static/media/headerbg.png": "/popflix/static/media/headerbg.25b12dc5bbd230009f11.png",
     "index.html": "/popflix/index.html",
-    "main.7b22e036.css.map": "/popflix/static/css/main.7b22e036.css.map",
-    "main.b8c8feec.js.map": "/popflix/static/js/main.b8c8feec.js.map"
+    "main.3425b162.css.map": "/popflix/static/css/main.3425b162.css.map",
+    "main.a94d9ae5.js.map": "/popflix/static/js/main.a94d9ae5.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b22e036.css",
-    "static/js/main.b8c8feec.js"
+    "static/css/main.3425b162.css",
+    "static/js/main.a94d9ae5.js"
   ]
 }
