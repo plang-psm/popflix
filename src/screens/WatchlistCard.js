@@ -11,9 +11,9 @@ function WatchlistCard(props) {
           <h2 className='margin-bottom'>{props.title}</h2>
           <div className="rating-info margin-bottom">
             <span className='span-bold'>Rating:</span>
-            <p>{props.vote_count}</p>
-            <p>&#11088;{props.vote_average}</p>
-            <p>{props.popularity}</p>
+            <p>&#128499;{props.vote_count}</p>
+          <p>&#11088;{props.vote_average}</p>
+          <p>👤{(props.popularity).toFixed(2)}</p>
           </div>
           
           <button className='margin-bottom watchlist-btn' onClick={props.removeFavorite}>Remove from watchlist</button>
