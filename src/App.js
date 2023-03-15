@@ -1,9 +1,9 @@
-import MovieHome from "./screens/MovieHome";
+import Home from "./client/pages/Home";
 
 function App() {
   return (
     <div className="App">
-      <MovieHome />
+      <Home />
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import ReadMore from '../components/ReadMore'
+import ReadMore from '../util/ReadMore'
 
 function WatchlistCard(props) {
     const API_IMG = 'https://image.tmdb.org/t/p/w200'

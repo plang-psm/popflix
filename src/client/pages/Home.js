@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react'
-import MovieCard from './MovieCard';
-import WatchlistCard from './WatchlistCard';
+import MovieCard from '../components/MovieCard';
+import WatchlistCard from '../components/WatchlistCard';
 
 const API_KEY = process.env.REACT_APP_API_KEY
 
