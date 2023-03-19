@@ -1,4 +1,8 @@
-*{
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,10 +11,10 @@
 body {
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
-}
+} */
 
 /* ****************** Buttons ****************** */
-button {
+/* button {
     padding: .5em;
     border:  none;
 }
@@ -31,36 +35,36 @@ button {
 
 .watchlist-btn:hover {
     background-color: rgb(70, 70, 70);
-}
+} */
 
 /* ****************** Bold ****************** */
-.span-bold {
+/* .span-bold {
     font-weight: 700;
-}
+} */
 
 /* ****************** Mobile margin bottom ****************** */
-.margin-bottom{
+/* .margin-bottom{
     margin-bottom: .5em;
-}
+} */
 
 /* ****************** Search bar ****************** */
-.searchbar {
+/* .searchbar {
     max-width: 850px;
     margin: -1em auto 0 auto;
     display: flex;
     justify-content: center;
-}
+} */
 
-.searchbar input {
+/* .searchbar input {
     margin-top: -.5em;
     width: 80%;
     padding: .8em 0;
     text-align: center;
     font-size: 1rem;
-}
+} */
 
 /* ****************** Heading ****************** */
-.heading-container {
+/* .heading-container {
     padding: 4.5em;
     background-color: black;
     text-align: center;
@@ -77,10 +81,10 @@ button {
     color: black;
     letter-spacing: .1em;
     text-align: center;
-}
+} */
 
 /* ****************** Card Container ****************** */
-.poster img {
+/* .poster img {
     width: 70%;
     object-fit: cover;
 }
@@ -109,10 +113,10 @@ button {
 .overview {
     background-color: whitesmoke;
     padding: .5em;
-}
+} */
 
 /* ****************** Repsonsive Design ****************** */
-@media only screen and (min-width: 553px) {
+/* @media only screen and (min-width: 553px) {
 
     .heading-container {
         display: flex;
@@ -125,9 +129,9 @@ button {
     }
 
     .card-container {
-        display: flex;
+        display: flex; */
         /* align-items: start; */
-        
+/*         
     }
     .margin-bottom{
         margin-bottom: 1em;
@@ -136,4 +140,4 @@ button {
 
 @media only screen and (min-width: 850px) {
 
-}
+} */
